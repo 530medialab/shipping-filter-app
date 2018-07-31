@@ -10,9 +10,9 @@ app.use(bodyParser.urlencoded({
 }));
 
 const Shopify = new shopifyAPI({
-  shop: 'jtc-staging', // MYSHOP.myshopify.com
-  shopify_api_key: '149c0fcdb13d84baa1023a285cd9d4b4', // App API key
-  access_token: 'a08e70b521773024447029c256f92bbf' // App API password
+  shop: '', // MYSHOP.myshopify.com
+  shopify_api_key: '', // App API key
+  access_token: '' // App API password
 });
 
 const port = 5555; // port 5555 for requests
